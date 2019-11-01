@@ -59,3 +59,21 @@ p{
 .addBtn:active {
     background-color: #ddd;
 }
+.main {
+    width: 600px;
+    margin:auto;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding: 10px
+}
+.input{
+    padding: 10px;
+    box-sizing: border-box;
+    margin:10px
+}
+.addBtn{
+    
+}
