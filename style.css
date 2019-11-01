@@ -50,3 +50,12 @@ p{
     display: block;
     width: 55px;
 }
+/*<<<<<<<<<<<<<<MAIN>>>>>>>>>>>*/
+.main {
+    border: 0.5px solid black;
+    margin-top: 10px
+}
+.addBtn:hover,
+.addBtn:active {
+    background-color: #ddd;
+}
