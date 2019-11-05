@@ -2,8 +2,8 @@ $(document).ready(function () {
     //selector
     //event
     //animate
-    $('span').click(function(_event){
-        //console.log('done')
-
+    $('.addBtn').click(function(event){
+        $('#form-add').animate({marginLeft: 0, opacity: 0});
+        $('#form-add').animate({marginLeft: 300, opacity: 1});
     });
 });
