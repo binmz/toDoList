@@ -1,81 +1,31 @@
-* {
-    padding: 0px;
-    margin: 0px;
+*{
     box-sizing: border-box;
 }
-html{
-    display: inline;
-    font-family: 'Courier New', Courier, monospace;
-    text-rendering: optimizeLegibility;
-    background-color: white;
-    padding: 10px;
+body{
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    background-color: rgb(75,191,107);
+    margin: 0;
 }
-h2, h1{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    display: block;
+.title{
+    font: bold;
 }
 .header{
-    margin-left: 50px;
-    width: 285px;
-    box-sizing: border-box;
-    padding: 10px;
-    border: 2px solid black;
-    background-color: tomato;
-/*<<<<<<< HEAD*/
-    display: inline-block;
- 
- 
-/*=======*/
-    display: block;
-}
-p{
-    float: left;
-}
-.myInput{
-    border: 0.5px solid black;
-    border-radius: 5px;
- 
-}
-.addBtn{
-    border: 2px solid;
-    margin-top: -16px;
-    margin-left: auto;
-    padding: 5px;
-/*<<<<<<< HEAD*/
-    background-color:gray;
-    float: right;
-/*=======*/
-
     text-align: center;
-    display: block;
-    width: 55px;
+    background-color: rgb(64,163,91); 
+    padding: 4px;
 }
-/*<<<<<<<<<<<<<<MAIN>>>>>>>>>>>*/
-.main {
-    border: 0.5px solid black;
-    margin-top: 10px;
-    width: 100%;
-    padding: 10px;
-
+.main-header{
+    background-color: rgb(75,191,107);
 }
-.addBtn:hover,
-.addBtn:active {
-    background-color: #ddd;
+.btn{
+    color: #fff;
+    padding: 6px 8px;
+    transition: color 85ms ease-in;
 }
-.input{
-    padding: 10px;
-    box-sizing: border-box;
-    margin:10px;
-    border-radius: 15px;
-}
-.addBtn1{
-    border: 2px solid;
-    margin-top: -16px;
-    margin-left: auto;
-    padding: 5px;
-}
-.addBtn1:hover,
-.addBtn1:active {
-    background-color: #ddd;
+.info{
+    float: right;
+    display: inline-block;
 }
