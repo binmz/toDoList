@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <title>ToDoList</title>
-  <link rel="stylesheet" href="./style.css">
-  <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="scripts.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-  <header>
-    <div class="header">
-      <div class="title">TODOLIST</div>
-
-    </div>
-    <div class="main-header">
-      <div class="addTodo">
-        <input type="text" id="myInput" placeholder="Công việc ..." style="display: inline-block">
-        <button id="addBtn" style="display: inline-block">Thêm</button>
+  <body>
+    <header>
+      <div class="header">
+        <div class="title">TODOLIST</div>
       </div>
-      <table>
-        <tr>
-          <th>Thời gian tạo</th>
-          <th>Ngày tạo</th>
-          <th id="toDo">Những công việc cần làm</th>
-          <th>Đã hoàn thành</th>
-        </tr>
-        <tr>
-          <td>12:28:40</td>
-          <td>23/1/2020</td>
-          <td>Làm ToDoList</td>
-          <td><input type="checkbox" class="check" name="boolen"></td>
-        </tr>
-      </table>
-
-
-
-
-    </div>
-
-  </header>
-
-</body>
-
+      <div class="main-header">
+        <div class="addTodo">
+          <input
+            type="text"
+            class="input-title"
+            placeholder="Title"
+            style="display: inline-block"
+          />
+          <input
+            type="text"
+            class="input-details"
+            placeholder="Noi Dung"
+            style="display: inline-block"
+          />
+          <button id="addBtn" style="display: inline-block">Thêm</button>
+        </div>
+        <table>
+          <thead>
+            <th>Thời gian tạo</th>
+            <th id="toDo">Những công việc cần làm</th>
+            <th>Đã hoàn thành</th>
+            <th>Action</th>
+          </thead>
+          <tbody>
+            <!-- -->
+          </tbody>
+        </table>
+      </div>
+    </header>
+  </body>
 </html>
