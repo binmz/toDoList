@@ -2,15 +2,12 @@
     box-sizing: border-box;
 }
 body{
-    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
     background-color: rgb(75,191,107);
     margin: 0;
-}
-.title{
-    font: bold;
 }
 .header{
     text-align: center;
@@ -28,4 +25,20 @@ body{
 .info{
     float: right;
     display: inline-block;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+  }
+.addTodo{
+    text-align: center;
+}
+#myInput{
+    padding :5px;
+}
+#addBtn{
+    padding: 5px;
 }
