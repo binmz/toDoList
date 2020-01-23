@@ -22,10 +22,6 @@ body{
     padding: 6px 8px;
     transition: color 85ms ease-in;
 }
-.info{
-    float: right;
-    display: inline-block;
-}
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
